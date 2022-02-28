@@ -53,8 +53,8 @@ def gen_train_pair():
 
 def gen_val_pair():
 
-    test_clean_path = './datasets/female2_testset_clean'
-    test_noisy_path = './datasets/female2_testset_noisy'
+    test_clean_path = './datasets/female2_valset_clean'
+    test_noisy_path = './datasets/female2_valset_noisy'
     val_mix_path = './datasets/female2_valset_h5py'
     val_clean_name = sorted(os.listdir(test_clean_path))
     val_noisy_name = sorted(os.listdir(test_noisy_path))
