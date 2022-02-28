@@ -2,7 +2,7 @@ import torch
 # from preprocess import TorchOLA
 from AudioData import TrainingDataset, TrainCollate, EvalCollate, EvalDataset
 from torch.utils.data import DataLoader
-from new_model_dual_split_after_dual import Net
+from DPT_EG_model import Net
 # from STOI import stoi
 # from PESQ import get_pesq
 from metric import get_pesq, get_stoi
